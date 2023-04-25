@@ -1,0 +1,119 @@
+* {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  font-family: $font-family-sans-serif;
+  line-height: 24px;
+
+}
+
+.imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@supports (display:grid) {
+
+  .contenedor {
+    display: grid;
+    grid-template-rows: 10vh 30vh 40vh 10vh 10vh;
+    grid-template-columns: 3fr 4fr 3fr;
+    width: 100%;
+  }
+
+  .imagen {
+    grid-row: 1 / 4;
+    grid-column: 1 / -1;
+  }
+
+  .descripcion {
+    grid-row: 3;
+    grid-column: 2;
+    padding: 10px;
+    color: white;
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+
+  .navega1 {
+    grid-row: 1;
+    grid-column: 3;
+  }
+
+  
+  .footer1 {
+    display: flex;
+    grid-row: 4;
+    grid-column: 2;
+    align-self: center;
+  }
+
+  @mixin logo($posicion) {
+        grid-row:$posicion;
+        grid-column:1;
+        max-width: 200px;
+        max-height: 100px;
+        margin:auto;
+        background-color: white;
+  }
+
+  .logo1 {
+    @include logo(1);
+  }
+
+  .logo2 {
+    @include logo(5);
+  }
+
+
+  .navega2 {
+    display: flex;
+    grid-row: 5;
+    grid-column: 2;
+    align-items: center;
+    
+
+    
+  }
+
+  .social {
+    display: flex;
+    grid-row:5;
+    grid-column:3;
+    align-items: center;
+    justify-content: center;
+  }
+  .icono {
+    height: 1.5em;
+    padding:10px;
+  }
+
+  @media screen and (max-width:$mqMinWidth) {
+
+    .contenedor {
+      width: 100%;
+
+    }
+
+    .navega1 {
+      grid-column: 2;
+    }
+
+    .descripcion {
+      grid-row: 3;
+      grid-column: 1/4;
+      width: 80%;
+      margin: auto;
+    }
+
+
+  }
+
+}
