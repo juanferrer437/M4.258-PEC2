@@ -1,0 +1,33 @@
+.contenedor2 {
+    grid-row: 2 / 4;
+    grid-column: 1 / -1;
+    width: 80%;
+    margin: auto;
+
+}
+
+.flexcontenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1em;
+    justify-content: center;
+
+
+   &__bloque {
+        width: 350px;
+        font-size: 0.6em;
+        text-align: center;
+    }
+
+    &__bloque--user {
+        max-width: 100px;
+    }
+}
+
+.titulo {
+    padding:1em;
+    text-align: center;
+
+}
+
