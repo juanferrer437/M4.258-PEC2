@@ -1,0 +1,41 @@
+@supports (display: grid) {
+  .contenedor {
+    display: grid;
+    grid-template-rows: 10vh 28vh 40vh;
+    grid-template-columns: 3fr 4fr 3fr;
+  }
+
+  .contenedor2 {
+    grid-row: 2 / 4;
+    grid-column: 1 / -1;
+    width: 80%;
+    margin: auto;
+  }
+
+  .contenedor3 {
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr;
+
+    &__logo {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__logo--img {
+      max-width: 200px;
+      max-height: 100px;
+    }
+  }
+
+  .logo1 {
+    grid-row: 1;
+    grid-column: 1;
+    max-width: 200px;
+    max-height: 100px;
+    background-color: white;
+    margin: auto;
+  }
+}

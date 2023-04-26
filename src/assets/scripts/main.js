@@ -16,3 +16,8 @@ import "@fortawesome/fontawesome-free/js/all";
   const university = "UOC";
   console.log(`Hello, ${university}!`);
 } )();
+
+
+document.querySelector("#logo").addEventListener("click",function() {
+location.href="index.html";
+});
