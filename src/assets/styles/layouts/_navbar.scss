@@ -1,7 +1,7 @@
 .menu {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   align-items: center;
 
   justify-content: space-between;
@@ -10,18 +10,16 @@
   a {
     color: white;
     text-decoration: none;
-     
+
     :hover {
-    font-weight: bold;
-  }
+      font-weight: bold;
+    }
   }
 
   &__item {
     padding-right: 1em;
     list-style-type: none;
-    
   }
-
 }
 
 .menu2 {
@@ -31,17 +29,16 @@
   align-items: center;
   justify-content: space-between;
   height: 10vh;
- a {
+  a {
     color: black;
     text-decoration: none;
-      :hover {
-          font-weight: bold;
+    :hover {
+      font-weight: bold;
+    }
   }
-  }
-  
+
   &__item {
     padding-right: 1em;
     list-style-type: none;
-    
   }
 }
