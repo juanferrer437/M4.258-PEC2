@@ -1,17 +1,24 @@
 .container-fluid {
-     color:white;
-  
-}
-.container-fluid div {
   display: flex;
-  text-align:center;
+  align-items: center;
+  justify-content: center;
+
+  height: 400px;
+
+  color: white;
+
+  background-image: url("../images/partida.jpg");
   
 }
 
-
-
-.img-fluid {
-  width: 100%;
-  height: auto;
+.boot-logo {
+  width: 50%;
+  margin: auto;
+  text-align: center;
 }
 
+.container {
+  width: 80%;
+  margin:auto;
+  border: 1px solid black;
+}
