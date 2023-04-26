@@ -1,3 +1,37 @@
-.cla{
-    background-color: aliceblue;
-}
+.imagebox {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    background: black;
+  }
+  
+  .imagebox img {
+    opacity: 1;
+    transition: 0.5s opacity;
+  }
+  
+  .imagebox .imagebox-desc {
+    position: absolute;
+    
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    color: white;
+
+   text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+
+   transition: 0.5s padding;
+
+  }
+  
+  .imagebox:hover img {
+    opacity: 0.7;
+  }
+  
+  .imagebox:hover .imagebox-desc {
+    padding-bottom: 10%;
+  }
