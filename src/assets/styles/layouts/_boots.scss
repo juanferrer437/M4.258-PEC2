@@ -19,6 +19,18 @@
 
 .container {
   width: 50%;
-  margin: 4em auto;
+  margin: auto;
 }
 
+.circulo {
+  display: flex;
+  align-items: center;
+	justify-content: center;
+  width: 2rem;
+	height: 2rem;
+  
+  
+    border: 1px solid lightgray;
+	border-radius: 50%;
+  	
+}
