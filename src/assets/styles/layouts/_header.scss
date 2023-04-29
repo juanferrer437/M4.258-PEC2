@@ -1,7 +1,7 @@
 @supports (display: grid) {
   .contenedor {
     display: grid;
-    grid-template-rows: 10vh 28vh 40vh;
+    grid-template-rows: 8vh 28vh 40vh;
     grid-template-columns: 3fr 4fr 3fr;
   }
 
@@ -10,13 +10,15 @@
     grid-column: 1 / -1;
     width: 80%;
     margin: auto;
+    
   }
 
   .contenedor3 {
     display: grid;
     grid-template-columns: 3fr 4fr 3fr;
+    height:8vh;
 
-    &__logo {
+    & div {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;

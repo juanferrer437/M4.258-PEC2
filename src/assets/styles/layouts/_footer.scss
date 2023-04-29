@@ -2,20 +2,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 6em;
-  
+   height: 6em;
+
     
 }
 
 .footer2 {
-  display: grid;
-  grid-template-columns: 3fr 4fr 3fr;
   
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  width: 80%;
+  margin: auto;
+  border-top: 1px solid gray;
+
+
+  & div {
+    display: flex;
+    align-items: center;
+    
+  }
+
 
   &__logo2 {
     max-width: 200px;
     max-height: 100px;
-    margin: auto;
     background-color: white;
     
   }
@@ -23,7 +33,7 @@
   &__social {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
   }
 
   &__social--icono {
