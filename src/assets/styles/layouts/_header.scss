@@ -1,7 +1,7 @@
 @supports (display: grid) {
   .contenedor {
     display: grid;
-    grid-template-rows: 8vh 28vh 40vh;
+    grid-template-rows: 8vh 25vh 35vh;
     grid-template-columns: 3fr 4fr 3fr;
   }
 
@@ -16,8 +16,8 @@
   .contenedor3 {
     display: grid;
     grid-template-columns: 3fr 4fr 3fr;
-    height:8vh;
     width: 99%;
+    height:8vh;
 
     & div {
       display: flex;

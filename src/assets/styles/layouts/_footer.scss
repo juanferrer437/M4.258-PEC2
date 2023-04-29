@@ -2,18 +2,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-   height: 6em;
-
+  height: 2.5em;
+  margin-top:6em;
     
 }
 
 .footer2 {
-  
-  display: grid;
+    display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   width: 80%;
-  margin: auto;
-  border-top: 1px solid gray;
+  padding-top: 20px;
+  margin: 2.5em auto;
+  border-top: 1px solid lightgray;
+  
 
 
   & div {
@@ -26,7 +27,6 @@
   &__logo2 {
     max-width: 200px;
     max-height: 100px;
-    background-color: white;
     
   }
 
