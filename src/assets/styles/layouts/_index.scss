@@ -49,6 +49,20 @@ p {
   background-color: white;
 }
 
+.figura1 {
+  float: right;
+  max-height: 150px;
+  margin-left: 2em;
+  border-radius: 10%;
+}
+
+.figura2 {
+  float: left;
+  max-width: 150px;
+  margin: 1em 1em 1em 0;
+  border-radius: 10%;
+}
+
 @supports (display: grid) {
   .imagen {
     grid-row: 1 / 4;
