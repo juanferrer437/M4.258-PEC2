@@ -38,6 +38,8 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
     "autoprefixer": "^10.4.13",
+    "datatables.net": "^1.13.4",
+    "datatables.net-dt": "^1.13.4",
     "npm-run-all": "^4.1.5",
     "parcel": "^2.8.3",
     "postcss-preset-env": "^7.8.3",
@@ -54,7 +56,6 @@
     "@popperjs/core": "^2.11.7",
     "bootstrap": "^5.2.3",
     "cookieconsent": "^3.1.1",
-    "datatables.net-dt": "^1.13.4",
     "simple-slider": "^1.0.1"
   }
 }

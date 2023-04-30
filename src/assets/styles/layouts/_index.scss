@@ -6,6 +6,41 @@
   line-height: 24px;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.flexcontenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+
+  &__bloque {
+    width: 350px;
+    font-size: 0.6em;
+    text-align: center;
+  }
+
+  &__bloque--user {
+    max-width: 100px;
+  }
+}
+
+.titulo {
+  padding: 1em;
+  text-align: center;
+}
 
 .imagen {
   width: 100%;
@@ -14,8 +49,7 @@
   background-color: white;
 }
 
-@supports (display:grid) {
-
+@supports (display: grid) {
   .imagen {
     grid-row: 1 / 4;
     grid-column: 1 / -1;
@@ -26,20 +60,11 @@
     grid-column: 1 / -1;
   }
 
-
   .descripcion {
     grid-row: 3;
     grid-column: 2;
     padding: 10px;
     color: white;
-
-    h1 {
-      text-align: center;
-    }
-
-    p {
-      text-align: justify;
-    }
   }
 
   .navega1 {
@@ -52,11 +77,9 @@
     grid-column: 1/-1;
   }
 
-  @media screen and (max-width:$mqMinWidth) {
-
+  @media screen and (max-width: $mqMinWidth) {
     .contenedor {
       width: 100%;
-
     }
 
     .navega1 {
@@ -69,8 +92,5 @@
       width: 80%;
       margin: auto;
     }
-
-
   }
-
 }

@@ -4,22 +4,76 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="./assets/styles/main.scss"
+        <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"
         />
         <!-- do not remove this line! -->
-        <title>UOC Boilerplate</title>
+        <title>PEC2 - Herramientas HTML y CSS II</title>
+        
+
     </head>
     <body>
         <include src="./views/header.html"></include>
 
+        <div class="container2 mt-5">
+            <h1>Sistema de puntuación Elo</h1>
+            <p class="mt-3">El sistema de puntuación Elo es un método matemático, basado en cálculo estadístico, para calcular la habilidad relativa de los jugadores de disciplinas como el ajedrez. Debe su nombre a su inventor, el profesor Árpád Élő (1903-1992), un físico estadounidense de origen húngaro, contrariamente a la suposición generalizadamente extendida de que se trata de un acrónimo. A veces se recurre al uso de mayúsculas ELO para distinguir al método respecto de la persona que lo inventó, aunque no es lo usual.</p>
+    
 
+            </div>
 
+       <div class="container2 mt-5">
+        <h1>Ranking FIDE</h1>
+            <p class="mt-3">La Federación Internacional de Ajedrez (FIDE) es la organización encargada de gobernar mundialmente toda competición ajedrecística. Mensualmente publica las clasificaciones de todos los jugadores federados del mundo. Para ello, se vale del sistema de puntuación Elo.</p>
 
+            <p class="mt-3"><strong> 10 primeros jugadores de ajedrez del mundo en abril de 2023:</strong></p>
+        <table id="myTable" class="display">
+            <thead>
+                <tr>
+                    <th>Posición.</th>
+                    <th>Jugador</th>
+                    <th>Federación</th>
+                    <th>ELO</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td>1</td><td>Magnus Carlsen</td><td>Noruega</td><td>2853</td></tr>
+<tr><td>2</td><td>	Ian Nepomniachtchi</td><td> Rusia</td><td>	2795</td></tr>
+<tr><td>3</td><td>	Ding Liren	</td><td> China	</td><td>2788</td></tr>
+<tr><td>4</td><td>	Alireza Firouzja	</td><td> Francia</td><td>	2785</td></tr>
+<tr><td>5</td><td>	Hikaru Nakamura	</td><td> Estados Unidos</td><td>	2775</td></tr>
+<tr><td>6</td><td>	Anish Giri	</td><td> Países Bajos</td><td>	2768</td></tr>
+<tr><td>7</td><td>	Fabiano Caruana	</td><td>Estados Unidos	</td><td>2764</td></tr>
+<tr><td>8</td><td>	Wesley So	</td><td> Estados Unidos</td><td>	2760</td></tr>
+<tr><td>9</td><td>	Viswanathan Anand	</td><td> India</td><td>	2754</td></tr>
+<tr><td>10</td><td>	Teimour Radjabov</td><td>	 Azerbaiyán	</td><td>2747</td></tr>
+
+            </tbody>
+        </table>
+
+        <p class="mt-3"><strong>Las 10 primeras jugadoras de ajedrez del mundo en abril de 2023:</strong></p>
+        <table id="myTable2" class="display">
+            <thead>
+                <tr>
+                    <th>Posición.</th>
+                    <th>Jugadora</th>
+                    <th>Federación</th>
+                    <th>ELO</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr><td>        1</td><td>	Yifan Hou</td><td>	 China	</td><td>2628</td></tr>
+        <tr><td>2</td><td>	Humpy Koneru	</td><td> India	</td><td>2576</td></tr>
+        <tr><td>3</td><td>	Aleksandra Goryachkina</td><td> Rusia	</td><td>2565</td></tr>
+        <tr><td>4</td><td>	Kateryna Lagno</td><td>	 Rusia	</td><td>2560</td></tr>
+        <tr><td>5</td><td>	Ju Wenjun	</td><td>China	</td><td>2550</td></tr>
+        <tr><td>6</td><td>	Lei Tingjie</td><td>	China	</td><td>2545</td></tr>
+        <tr><td>7</td><td>	Alexandra Kosteniuk	</td><td> Suiza</td><td>	2535</td></tr>
+        <tr><td>8</td><td>	Tan Zhongyi	</td><td> China	</td><td>2526</td></tr>
+        <tr><td>9	</td><td>Nana Dzagnidze	</td><td> Georgia</td><td>	2525</td></tr>
+        <tr><td>10	</td><td>Mariya Muzychukv	</td><td> Ucrania</td><td>	2515</td></tr>
         
+    </div>
+
         <include src="./views/footer.html"></include>
 
         <script type="module" src="./assets/scripts/main.js"></script>

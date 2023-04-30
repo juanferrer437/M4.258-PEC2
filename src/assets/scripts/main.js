@@ -9,6 +9,21 @@
 import 'bootstrap';
 import "@fortawesome/fontawesome-free/js/all";
 import "cookieconsent";
+import DataTable from 'datatables.net-dt';
+ 
+let table = new DataTable('#myTable', {
+  language: {
+    url:'https:////cdn.datatables.net/plug-ins/1.12.1/i18n/es-ES.json'
+}
+});
+
+let table2 = new DataTable('#myTable2', {
+  language: {
+    url:'https:////cdn.datatables.net/plug-ins/1.12.1/i18n/es-ES.json'
+}
+});
+ 
+
 /**
  * Write any other JavaScript below
  */
@@ -40,3 +55,4 @@ window.cookieconsent.initialise({
     }
   });
 
+  
