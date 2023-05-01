@@ -2,14 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   height: 500px;
-
   color: white;
-
   background-image: url("../images/partida.jpg");
   background-position: center center;
-  
 }
 
 .boot-logo {
@@ -22,21 +18,18 @@
   width: 50%;
   margin: auto;
 }
+
 .container2 {
   width: 80%;
   margin: auto;
-  
 }
 
 .circulo {
   display: flex;
   align-items: center;
-	justify-content: center;
+  justify-content: center;
   width: 2rem;
-	height: 2rem;
-  
-  
-    border: 1px solid lightgray;
-	border-radius: 50%;
-  	
+  height: 2rem;
+  border: 1px solid lightgray;
+  border-radius: 50%;
 }
