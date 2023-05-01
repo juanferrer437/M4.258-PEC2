@@ -15,9 +15,7 @@ h1 {
   text-align: center;
 }
 
-p {
-  text-align: justify;
-}
+
 
 .flexcontenedor {
   display: flex;
@@ -27,9 +25,10 @@ p {
   justify-content: center;
 
   &__bloque {
-    width: 350px;
+    width: 300px;
     font-size: 0.6em;
     text-align: center;
+
   }
 
   &__bloque--user {
