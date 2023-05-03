@@ -1,19 +1,27 @@
 .navega2 {
-  width: 80%;
-  height: 6vh;
-  margin:auto;
+  width: 100%;
+  font-weight: bold;
 
-  & ul {
+
+  &__footer {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 100%;
     list-style-type: none;
-    // background-color: white;
   }
 
-  & a {
-    font-weight: bold;
+  &__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none; 
+    
+   &--item {
+    padding-left: 2em;
+   }  
   }
+    
+
 }

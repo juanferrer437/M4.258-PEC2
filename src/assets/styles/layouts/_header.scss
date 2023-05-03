@@ -3,7 +3,7 @@
     display: grid;
     grid-template-rows: 8vh 25vh 35vh;
     grid-template-columns: 3fr 4fr 3fr;
-  }
+   }
 
   .contenedor2 {
     grid-row: 2 / 4;
@@ -15,18 +15,12 @@
   .contenedor3 {
     display: grid;
     grid-template-columns: 3fr 7fr;
-    width: 99%;
+    align-content: center;
+    width: 80%;
     height: 8vh;
-
-    & div {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-    }
-
-    &__logo--img {
+    margin:auto;
+       
+   &__logo {
       max-width: 200px;
       max-height: 100px;
     }
