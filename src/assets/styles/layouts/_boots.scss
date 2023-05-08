@@ -38,3 +38,10 @@
 .imagen2 {
   max-height: 500px;
 }
+
+@media screen and (max-width: $mqPeque) {
+  .container2 {
+    width: 95%;
+    margin:auto;
+  }
+}
