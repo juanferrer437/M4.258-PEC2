@@ -7,10 +7,17 @@
 // import SomeModule from 'some-node-module';
 
 import 'bootstrap';
-import "@fortawesome/fontawesome-free/js/all";
 import "cookieconsent";
 import DataTable from 'datatables.net-dt';
  
+
+ 
+
+/**
+ * Write any other JavaScript below
+ */
+
+
 let table = new DataTable('#myTable', {
   language: {
     url:'https:////cdn.datatables.net/plug-ins/1.12.1/i18n/es-ES.json'
@@ -22,16 +29,6 @@ let table2 = new DataTable('#myTable2', {
     url:'https:////cdn.datatables.net/plug-ins/1.12.1/i18n/es-ES.json'
 }
 });
- 
-
-/**
- * Write any other JavaScript below
- */
-
-+( function() {
-  const university = "UOC";
-  console.log(`Hello, ${university}!`);
-} )();
 
 
 document.querySelector("#logo").addEventListener("click",function() {
