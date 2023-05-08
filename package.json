@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juanferrer437/M4.258-PEC1.git"
+    "url": "git+https://github.com/juanferrer437/M4.258-PEC2.git"
   },
   "author": {
     "name": "Juan Ferrer",
@@ -32,9 +32,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/juanferrer437/M4.258-PEC1/issues"
+    "url": "https://github.com/juanferrer437/M4.258-PEC2/issues"
   },
-  "homepage": "https://github.com/juanferrer437/M4.258-PEC1#readme",
+  "homepage": "https://github.com/juanferrer437/M4.258-PEC2#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
     "autoprefixer": "^10.4.13",
@@ -54,6 +54,8 @@
     "@popperjs/core": "^2.11.7",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.5",
-    "cookieconsent": "^3.1.1"
+    "cookieconsent": "^3.1.1",
+    "datatables.net-responsive-dt": "^2.4.1",
+    "import": "^0.0.6"
   }
 }
