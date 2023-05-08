@@ -13,6 +13,8 @@ $mqMinWidth: 1000px;
 
 $mqPeque:600px;
 
+$bootstrap-icons-font-dir: "npm:bootstrap-icons/font/fonts";
+
 $grid-breakpoints: (
   xs: 0,
   sm: 600px,
@@ -27,5 +29,3 @@ $theme-colors: (
 "secondary": #f190c5
 );
 
-
-$bootstrap-icons-font-dir: "npm:bootstrap-icons/font/fonts";
