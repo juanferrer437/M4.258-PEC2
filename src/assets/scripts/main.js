@@ -8,6 +8,7 @@
 
 import 'bootstrap';
 import "cookieconsent";
+
 import DataTable from 'datatables.net-dt';
  
 

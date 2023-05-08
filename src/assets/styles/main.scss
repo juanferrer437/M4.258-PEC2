@@ -20,7 +20,8 @@
  @import "bootstrap/scss/bootstrap";
  @import "bootstrap-icons/font/bootstrap-icons";
  @import "npm:cookieconsent/build/cookieconsent.min.css";
- @import url("https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css");
+
+ @import "npm:datatables.net-dt/css/jquery.dataTables.css";
 
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
