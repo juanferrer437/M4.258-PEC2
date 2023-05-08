@@ -90,12 +90,14 @@ h1 {
     grid-row: 1;
     grid-column: 1/-1;
   }
+}
 
   @media screen and (max-width: $mqMinWidth) {
     .contenedor {
       width: 100%;
     }
-
+    
+    @supports (display: grid) {
     .navega1 {
       grid-column: 2;
     }
@@ -108,3 +110,4 @@ h1 {
     }
   }
 }
+

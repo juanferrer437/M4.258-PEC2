@@ -43,4 +43,14 @@
   }
 }
 
+@media screen and (max-width: $mqPeque) {
+  .contenedor3 {
+    display: grid;
+    grid-template-columns: 1fr;
+      
+    &__logo {
+     display: none;
+    }
+  }
+}
 }

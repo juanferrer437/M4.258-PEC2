@@ -6,6 +6,7 @@
   margin-top: 6em;
 }
 
+@supports (display: grid) {
 .footer2 {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
@@ -36,4 +37,17 @@
     height: 1.5em;
     padding: 10px;
   }
+}
+@media screen and (max-width: $mqPeque) {
+  .footer2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    &__logo2 {
+      display: none;
+}
+&__social--icono {
+  display: none;
+}
+}
+}
 }
