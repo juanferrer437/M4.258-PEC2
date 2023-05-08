@@ -22,6 +22,10 @@ $grid-breakpoints: (
   xxl: 1400px
 );
 
-$primary: #14896e;
-$secondary: #42ed12;
+$theme-colors: (
+"primary": #92f0da,
+"secondary": #f190c5
+);
+
+
 $bootstrap-icons-font-dir: "npm:bootstrap-icons/font/fonts";
