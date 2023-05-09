@@ -25,17 +25,3 @@
    
 }
 
-@media screen and (max-width: $mqPeque) {
-  .navega2 {
-    
-    &__footer {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    &__header {
-      display: flex;
-      flex-direction: column;
-}
-  }
-}
