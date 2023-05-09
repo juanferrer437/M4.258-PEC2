@@ -49,19 +49,22 @@ h1 {
   display: none;
 }
 
-.figura1 {
-  float: right;
-  max-height: 150px;
-  margin-left: 2em;
+@mixin figura($float) {
+  float:$float;
   border-radius: 10%;
 }
 
+.figura1 {
+  @include figura(right);
+  max-height: 150px;
+  margin-left: 2em;
+}
+
 .figura2 {
-  float: left;
+  @include figura(left);
   max-width: 150px;
   margin: 1em 1em 1em 0;
-  border-radius: 10%;
-}
+ }
 
 @supports (display: grid) {
   .imagen {
