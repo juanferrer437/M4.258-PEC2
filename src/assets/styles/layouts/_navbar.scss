@@ -1,23 +1,23 @@
 .navega2 {
   width: 100%;
   font-weight: bold;
-
-
-  &__footer {
-    display: flex;
+  
+@mixin cuerpo($justify) {
+  display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content:$justify;
+    padding-top:10px;
     list-style-type: none;
+}
+
+  &__footer {
+     @include cuerpo(space-between);
   }
 
   &__header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    list-style-type: none; 
-    
+    @include cuerpo(flex-end);
+        
    &--item {
     padding-left: 2em;
    }  
