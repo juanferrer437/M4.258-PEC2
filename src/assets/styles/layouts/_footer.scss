@@ -6,6 +6,28 @@
   margin-top: 6em;
 }
 
+.footer2 {
+  &__logo2 {
+    max-width: 200px;
+    max-height: 100px;
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  
+  &--icono {
+    height: 1.5em;
+    padding: 10px;
+  }
+}
+  & div {
+    display: flex;
+    align-items: center;
+  }
+}
+
 @supports (display: grid) {
 .footer2 {
   display: grid;
@@ -17,26 +39,8 @@
   border-top: 1px solid lightgray;
   
 
-  & div {
-    display: flex;
-    align-items: center;
-  }
 
-  &__logo2 {
-    max-width: 200px;
-    max-height: 100px;
-  }
-
-  &__social {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-  }
-
-  &__social--icono {
-    height: 1.5em;
-    padding: 10px;
-  }
+ 
 }
 @media screen and (max-width: $mqPeque) {
   .footer2 {
