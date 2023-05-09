@@ -1,9 +1,16 @@
+.contenedor3 {
+  &__logo {
+    max-width: 200px;
+    max-height: 100px;
+  }
+}
+
 @supports (display: grid) {
   .contenedor {
     display: grid;
     grid-template-rows: 8vh 25vh 35vh;
     grid-template-columns: 1fr 3fr 1fr;
-   }
+  }
 
   .contenedor2 {
     grid-row: 2 / 4;
@@ -12,40 +19,37 @@
     margin: auto;
   }
 
-  .contenedor3 {
-    display: grid;
-    grid-template-columns: 3fr 7fr;
-    align-content: center;
-    width: 80%;
-    height: 8vh;
-    margin:auto;
-       
-   &__logo {
-      max-width: 200px;
-      max-height: 100px;
-    }
-  }
-
   .logo1 {
     grid-row: 1;
     grid-column: 1;
     max-width: 200px;
     max-height: 100px;
     margin: auto;
-
     background-color: white;
   }
 
+  .contenedor3 {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    align-content: center;
+    width: 80%;
+    height: 8vh;
+    margin: auto;
+  }
+}
 
 @media screen and (max-width: $mqPeque) {
   .contenedor3 {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-top:10px;
-
     &__logo {
-     display: none;
+      display: none;
     }
   }
-}
+
+  @supports (display: grid) {
+    .contenedor3 {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding-top: 10px;
+    }
+  }
 }
